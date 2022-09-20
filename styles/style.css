@@ -1,0 +1,77 @@
+h1{
+    font-family: Bradley Hand, cursive;
+    text-align:center;
+    font-size: 60px;
+}
+h2{
+    font-family: Bradley Hand, cursive;
+    text-align:center;
+    font-size: 30px;
+}
+.xstyle{
+    font-family: Bradley Hand, cursive;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.class1{
+    z-index: 1;
+    font-family: Bradley Hand, cursive;
+    font-size: 40px;
+    width:33%;
+    text-align: center;
+    color: transparent;
+}
+.class2{
+    z-index: 1;
+    font-family: Bradley Hand, cursive;
+    font-size: 40px;
+    text-align: center;
+    color: transparent;
+}
+.as{
+    background-image: url('../qust.jpg');
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin:0 auto;
+}
+.as1{
+    background-image: url('../qust.jpg');
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin:0 auto;
+}
+.as:hover .class1{
+    color: black;
+}
+.as1:hover .class2{
+    color: black;
+}
+.as:hover{
+    background-image: url('');
+}
+.as1:hover{
+    background-image: url('');
+}
+.block{
+    margin-top: 20px;
+    white-space: nowrap;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.block_part{
+    display:inline-block;
+    vertical-align:top;
+    margin-right:25px;
+    height: 80vh;
+    width:40%;
+}
